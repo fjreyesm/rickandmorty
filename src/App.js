@@ -6,6 +6,7 @@ import Characters from "./components/Character";
 function App() {
   return (
     <div className="App">
+      <Header />
       <Characters />
     </div>
   );

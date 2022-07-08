@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Header = () => {
+const Cabecera = () => {
   const [darkMode, setDarkMode] = useState(false);
   const handleClick = () => {
     setDarkMode(!darkMode);
@@ -16,4 +16,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Cabecera;
